@@ -19,4 +19,8 @@ public class Account extends Product{
 	public String getAccount(){
 		return owner;
 	}
+	
+	public String getPassword(){
+		return password;
+	}
 }
